@@ -4,7 +4,7 @@
   "description": "Distributed system with Node.js, Ch6",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"a failed fake Tests\" && exit 1"
+    "test": "echo \"A failed fake Tests\" && exit 1"
   },
   "repository": {
     "type": "git",

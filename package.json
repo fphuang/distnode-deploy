@@ -4,7 +4,7 @@
   "description": "Distributed system with Node.js, Ch6",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Failed Fake Tests\" && exit 1"
+    "test": "nyc tape ./test/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,10 @@
   "homepage": "https://github.com/fphuang/distnode-deploy#readme",
   "dependencies": {
     "fastify": "^3.23.1"
+  },
+  "devDependencies": {
+    "node-fetch": "^2.6.6",
+    "nyc": "^15.1.0",
+    "tape": "^5.3.1"
   }
 }

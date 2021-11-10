@@ -5,7 +5,7 @@ module.exports = class Recipe {
     }
 
     async hydrate() {
-        this.name = `Recipe: #{this.id}`;
+        this.name = `Recipe: #${this.id}`;
     }
 
     toJSON() {

@@ -1,7 +1,7 @@
 const server = require('fastify')();
 const HOST = process.env.HOST || '127.0.0.1';
 const PORT = process.env.PORT || 8000;
-const Recipe = rquire('./recipe.js');
+const Recipe = require('./recipe.js');
 
 server.get('/', async (req, reply) => {
     return "Hello from Distrubuted Node.js!";

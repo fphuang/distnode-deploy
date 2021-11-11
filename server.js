@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 8000;
 const Recipe = require('./recipe.js');
 
 server.get('/', async (req, reply) => {
-    return "Hello from Distributed Node.js!";
+    return "Hello from Distributed Node.js! Goodbye.";
 });
 
 server.get('/recipes/:id', async (req, reply) => {
@@ -17,5 +17,3 @@ server.get('/recipes/:id', async (req, reply) => {
 server.listen(PORT, HOST, (err, host) => {
     console.log(`Server running at ${host}`);
 });
-
-// 425c0cdd-61a1-473f-bcde-31f5b3a74282

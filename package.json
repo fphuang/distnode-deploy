@@ -20,7 +20,7 @@
     "fastify": "^3.23.1"
   },
   "devDependencies": {
-    "node-fetch": "^2.6.6",
+    "node-fetch": "^2.6.7",
     "nyc": "^15.1.0",
     "tape": "^5.3.1"
   }

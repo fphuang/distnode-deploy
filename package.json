@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/fphuang/distnode-deploy#readme",
   "dependencies": {
-    "fastify": "^3.23.1"
+    "fastify": "^3.29.4"
   },
   "devDependencies": {
     "node-fetch": "^2.6.6",
